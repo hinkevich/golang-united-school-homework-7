@@ -211,14 +211,3 @@ func TestSet(t *testing.T) {
 		}
 	}
 }
-//e:=err(*strconv.NumError).err!=errors.Unwrap(test.err)
-//t.Errorf("Test name: %s ,Invalid exeption %#v , %#v",key,err, test.err)
-//t.Errorf("%#v",errors.Unwrap(err))
-// else if errors.Is(err,test.err){
-// 	t.Errorf("Invalid exeption %#v , %#v",err, test.err)
-// }  
-	//"Test Three(return exeption)": {input: "1 e 3\n4 5 6",want: Matrix{rows: 2,cols: 3,data: []int{1,2,3,4,5,6}}, err: nil},
-
-
-
-
